@@ -1,0 +1,27 @@
+NAME       :U chandea sekhar
+DATE       :7/03/25
+DESCRIPTION:Inverted search is a technique used in information retrieval systems, 
+            databases, and search engines to efficiently find occurrences of words
+            or terms in a collection of files or documents. It relies on an inverted 
+            index, which is a data structure that maps words to the files or locations
+            where they appear.
+		 
+		 This project is highly useful in scenarios that involve managing large sets of text data, such as:
+
+          Libraries and Digital Archives:
+		  Helps in managing large volumes of text-based content, allowing users to search for specific terms efficiently.
+          Search Engines:
+		  Powers the search feature of search engines, where users search for specific words across millions of documents.
+          Data Analysis and Text Mining: 
+		  Used in processing textual data from various sources to extract insights.
+
+1. Creating an Inverted Index
+To perform an inverted search, we first build an inverted index, which consists of:
+
+A word dictionary (unique words extracted from files/documents).
+A list of files where each word appears.
+The frequency of the word in each file.
+
+input: A collection of text files containing words.
+Process: The system reads each file, indexes the words, and counts their occurrences.
+Output: A display of each word’s occurrences across files in the format of a word index, showing how many times the word appears in each file and listing the file names along with the word count.
